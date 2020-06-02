@@ -1,0 +1,28 @@
+Django:: Web Development Framework
+Advantages ::
+1) Fast
+2) No of Components are available
+3) Security
+4) Scalability
+
+
+to create a DJnago project run the below command
+>django-admin startproject django_project(Project_Name)
+>cd django_project
+django_project>python manage.py runserver
+
+to create a app under u r project run the below command ::
+django_project>python manage.py startapp calc(app_name)
+
+// to create a folder to keep all files
+django_project>python manage.py collectstatic
+
+
+//DB Connection
+python manage.py makemigrations
+
+python manage.py sqlmigrate travello 0001
+
+python manage.py migrate
+
+
